@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int soma();
 int main()
 {
    int op = 0;
@@ -17,7 +18,7 @@ int main()
 
    switch(op){
    case 1:
-       // função soma;
+       soma();
        break;
    case 2:
        // fução subtração;
