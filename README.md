@@ -11,5 +11,5 @@ Cada aluno deverá criar uma **nova branch** e implementar uma **operação mate
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/super-calculadora.git
+git clone git@github.com:prof-fellipe/super-calculadora.git
 cd super-calculadora
