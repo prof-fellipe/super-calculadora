@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+void somarNumeros() {
+    float entrada1, entrada2, resultado;
 
+    printf("Digite o primeiro n√∫mero: ");
+    scanf("%f", &entrada1);
+
+    printf("Digite o segundo n√∫mero: ");
+    scanf("%f", &entrada2);
+
+    resultado = entrada1 + entrada2;
+
+    printf("A soma √©: %.2f\n", resultado);
+}
 int main()
 {
    int op = 0;
@@ -17,10 +29,10 @@ int main()
 
    switch(op){
    case 1:
-       // funÁ„o soma;
+       somarNumeros();
        break;
    case 2:
-       // fuÁ„o subtraÁ„o;
+       // fu√ß√£o subtra√ß√£o;
     break;
    case 0:
     break;
