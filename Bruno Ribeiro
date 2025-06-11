@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    float a, b, c, x;
+
+    // Entradas
+    printf("Digite A: ");
+    scanf("%f", &a);
+
+    printf("Digite B: ");
+    scanf("%f", &b);
+
+    printf("Digite C: ");
+    scanf("%f", &c);
+
+    // Cálculo da regra de 3
+    x = (b * c) / a;
+
+    // Saída
+    printf("Resultado: %.2f\n", x);
+
+    return 0;
+}
